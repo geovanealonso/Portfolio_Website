@@ -3,22 +3,268 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Portfolio do Geovane</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Montserrat:wght@500&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    <header>
-        <h1>Prazer, me chamo Geovane!</h1>
-        <nav>
-            <a href="index.html">Sobre Mim</a>
-            <a href="skills.html">Skills</a>
-            <a href="projetos.html">Projetos</a>
-            <a href="contato.html">Contato</a>
-        </nav>
-    </header>
+<body class="main-content">
+    <header class="section sec1 header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="images/minha_foto_height500.jpeg" alt="Minha Foto">
+                </div>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Olá, me chamo <span> Geovane Alonso</span>.
+                </h1>
+                <p>
+                    Sou um desenvolvedor cursando Análise e Desenvolvimento de sistemas.<br>
+                    Que tal checar meus projetos? &#128512;
+                </p>
+                <div class="btn-con">
+                    <a href="https://docs.google.com/document/d/1-cSAOimXGUO_v2X_Bg_joOZEsjKO4k7W/edit?usp=sharing&ouid=113095504317679422507&rtpof=true&sd=true" class="main-btn" target="_blank">
+                        <span class="btn-text">Baixe meu currículo!</span>
+                        <span class="btn-icon"><i class="fa-solid fa-download"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header> 
     <main>
-        <img src="images/geovane_150x150.png" alt="Minha Foto" id="minhafoto">
-        <p>Sou um aluno de Análise e Desenvolvimento de Sistemas à procura de estágio.</p>
+        <section class="section sec2 about" id="about">
+            <div class="main-title">
+                <h2>Sobre <span>mim</span><span class="bg-text">minhas skills</span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h4>Informações sobre mim</h4>
+                    <p>
+                        Sou um jovem desenvolvedor procurando uma oportunidade de emprego no mundo de TI. Achei minha paixão em programar por meio dos videogames, e pretendo desenvolver um algum dia.
+                    </p>
+                    <div class="btn-con">
+                        <a href="https://docs.google.com/document/d/1-cSAOimXGUO_v2X_Bg_joOZEsjKO4k7W/edit?usp=sharing&ouid=113095504317679422507&rtpof=true&sd=true" class="main-btn" target="_blank">
+                            <span class="btn-text">Baixe meu currículo!</span>
+                            <span class="btn-icon"><i class="fa-solid fa-download"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="right-about">
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">900+</p>
+                            <p class="small-text">Nota da <br /> prova de inglês TOEIC</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">5+</p>
+                            <p class="small-text">Experiência com  <br /> Linguagens de Programação</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="about-stats">
+                <h4 class="stat-title">Minhas Skills</h4>
+                <div class="skills">
+                    <div class="skill-solo">
+                        <p class="skill-title">HTML5</p>
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-html5 fa-4x"></i>
+                        </div>
+                    </div>
+                    <div class="skill-solo">
+                        <p class="skill-title">CSS</p>
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-css3-alt fa-4x"></i>
+                        </div>
+                    </div>
+                    <div class="skill-solo">
+                        <p class="skill-title">Git/GitHub</p>
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-git-alt fa-4x"></i>
+                            <i class="fa-brands fa-github fa-4x"></i>
+                        </div>
+                    </div>
+                    <div class="skill-solo">
+                        <p class="skill-title">JavaScript</p>
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-square-js fa-4x"></i>
+                        </div>
+                    </div>
+                    <div class="skill-solo">
+                        <p class="skill-title">SQL</p>
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-database fa-4x"></i>
+                        </div>
+                    </div>
+                    <div class="skill-solo">
+                        <p class="skill-title">Inglês Fluente</p>
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-comment fa-4x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section sec3" id="portfolio">
+            <div class="main-title">
+                <h2>Meu <span>Portfolio</span><span class="bg-text">meu trabalho</span></h2>
+            </div>
+            <p class="port-text">
+                Abaixo você pode checar meus trabalhos com linguagens de programação variadas.
+            </p>
+            <div class="portfolios">
+
+                <p>Projetos em desenvolvimento!</p>
+
+                <!-- 
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="images/site-portfolio-img-700.png" alt="Projeto 1 Site Portfolio">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Links para o Projeto</h3>
+                        <div class="icons">
+                            <a href="#" target="_blank" class="icon">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                -->
+                
+            </div>
+        </section>
+        <section class="section sec4" id="blogs">
+            <div class="blogs-content">
+                <div class="main-title">
+                    <h2>Meu <span>Blog</span><span class="bg-text">Meu Blog</span></h2>
+                </div>
+                <div class="blogs">
+                    <div class="blog">
+                        <img src="images/linux-tux.jpg" alt="Imagem do Tux, mascote penguim to linux.">
+                        <div class="blog-text">
+                            <h4>
+                                Por que usar Linux?
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore necessitatibus tempora numquam, officiis corrupti dolor fuga beatae eius ad ducimus dicta itaque tenetur et minus. Eveniet, sapiente? Sapiente, beatae at.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="images/linux-tux.jpg" alt="Imagem do Tux, mascote penguim to linux.">
+                        <div class="blog-text">
+                            <h4>
+                                Por que usar Linux?
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore necessitatibus tempora numquam, officiis corrupti dolor fuga beatae eius ad ducimus dicta itaque tenetur et minus. Eveniet, sapiente? Sapiente, beatae at.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="images/linux-tux.jpg" alt="Imagem do Tux, mascote penguim to linux.">
+                        <div class="blog-text">
+                            <h4>
+                                Por que usar Linux?
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore necessitatibus tempora numquam, officiis corrupti dolor fuga beatae eius ad ducimus dicta itaque tenetur et minus. Eveniet, sapiente? Sapiente, beatae at.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section sec5 contact" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2><span>Contato</span><span class="bg-text">Entre em Contato</span></h2>
+                </div>
+                <div class="contact-content-con">
+                    <h4>Informações para contato:</h4>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fa-solid fa-map-pin fa-2x"></i>
+                                    Localização
+                                </div>
+                                <p>
+                                    : Santos, São Paulo
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fa-solid fa-phone fa-2x"></i>
+                                    Telefone
+                                </div>
+                                <p>
+                                    : (13) 99768-9353
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fa-solid fa-envelope fa-2x"></i>
+                                    Email
+                                </div>
+                                <p>
+                                    : geovane.alonso.dev@gmail.com
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fa-brands fa-linkedin fa-2x"></i>
+                                    Linkedin
+                                </div>
+                                <p>
+                                    : <a href="https://www.linkedin.com/in/geovane-alonso/" target="_blank">/geovane-alonso</a>
+                                </p>
+                            </div>
+                            <div class="btn-con">
+                                <a href="https://docs.google.com/document/d/1-cSAOimXGUO_v2X_Bg_joOZEsjKO4k7W/edit?usp=sharing&ouid=113095504317679422507&rtpof=true&sd=true" class="main-btn" target="_blank">
+                                    <span class="btn-text">Baixe meu currículo!</span>
+                                    <span class="btn-icon"><i class="fa-solid fa-download"></i></span>
+                                </a>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+        </section>
     </main>
+
+    <div class="controls">
+        <div class="control control-1 active-btn" data-id="home">
+            <i class="fa-solid fa-house"></i> 
+        </div>
+        <div class="control control-2" data-id="about">
+            <i class="fa-solid fa-user"></i>
+        </div>    
+        <div class="control control-3" data-id="portfolio">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            <!--<i class="fa-solid fa-briefcase"></i>-->
+        </div>
+         <!--
+        <div class="control control-4" data-id="blogs">
+            <i class="fa-solid fa-newspaper"></i>
+        </div>
+        -->
+        <div class="control control-5" data-id="contact">
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+    </div>
+
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    
+    <script src="app.js"></script>
 </body>
 </html>
